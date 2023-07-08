@@ -16,7 +16,9 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 12 NoSQL Chal
 
 ### 1. PROJECT DESCRIPTION
 
-This project is designed to assess student skills using **The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. This project is designed to assess student skills using the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.. *Coding was guided by the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ("don't repeat yourself") principle.*
+This project is designed to assess student skills using the [PyMongo](https://pypi.org/project/pymongo/) driver for the [MongoDC](https://en.wikipedia.org/wiki/MongoDB) database to manipulate non-relationtional [NoSQL](https://en.wikipedia.org/wiki/NoSQL) files and work with them in Python. The advantage of this is that database information in the cloud can be prepackaged in the desired form using an "aggregation pipeline" of sequential match, group, and sort queries before being imported to a local machine, maintaing efficiency and saving memory space.
+
+In the project scenario, the editors of a fictional United Kingdom food magazine, *Eat Safe, Love* want the author to evaluate some of the ratings data issued by the UK [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency) (which assesses various establishments across the UK and gives them each a food hygiene rating) in order to help the magazine's journalists and food critics decide where to focus future articles. *Coding was guided by the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ("don't repeat yourself") principle.*
 
 - [Task: Scrape Titles and Preview Text from *Mars News*](https://courses.bootcampspot.com/courses/3337/assignments/54002?module_item_id=961399)
 

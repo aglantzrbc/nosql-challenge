@@ -6,9 +6,9 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 12 NoSQL Chal
 ## TABLE OF CONTENTS
 
 1. Project Description
-   - Task: Database and Jupyter Notebook Set Up
-   - Task: Update the Database
-   - Task: Exploratory Analysis
+   - Task 1: Database and Jupyter Notebook Set Up
+   - Task 2: Update the Database
+   - Task 3: Exploratory Analysis
 2. Installation
 3. Contributing
 4. Acknowledgements
@@ -16,15 +16,20 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 12 NoSQL Chal
 
 ### 1. PROJECT DESCRIPTION
 
-This project is designed to assess student skills using the [PyMongo](https://pypi.org/project/pymongo/) driver for the [MongoDC](https://en.wikipedia.org/wiki/MongoDB) database to manipulate non-relationtional [NoSQL](https://en.wikipedia.org/wiki/NoSQL) files and work with them in Python. The advantage of this is that database information in the cloud can be prepackaged in the desired form using an "aggregation pipeline" of sequential match, group, and sort queries before being imported to a local machine, maintaing efficiency and saving memory space.
+This project is designed to assess student skills using the [PyMongo](https://pypi.org/project/pymongo/) driver for the [MongoDC](https://en.wikipedia.org/wiki/MongoDB) database to manipulate non-relationtional [NoSQL](https://en.wikipedia.org/wiki/NoSQL) files and work with them in Python. The advantage of this is that database information in the cloud can be prepackaged in the desired form using an "aggregation pipeline" of sequential *match*, *group*, and *sort* queries before being imported to a local machine, maintaing efficiency and saving memory space.
 
-In the project scenario, the editors of a fictional United Kingdom food magazine, *Eat Safe, Love* want the author to evaluate some of the ratings data issued by the UK [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency) (which assesses various establishments across the UK and gives them each a food hygiene rating) in order to help the magazine's journalists and food critics decide where to focus future articles. *Coding was guided by the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ("don't repeat yourself") principle.*
+In the project scenario, the editors of a fictional United Kingdom (UK) food magazine, *Eat Safe, Love*, want the author to evaluate some of the ratings data issued by the UK [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency) (which assesses various establishments across the UK and gives them each a food hygiene rating) in order to help the magazine's journalists and food critics decide where to focus future articles. *Coding was guided by the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ("don't repeat yourself") principle.*
 
-- [Task: Scrape Titles and Preview Text from *Mars News*](https://courses.bootcampspot.com/courses/3337/assignments/54002?module_item_id=961399)
+- [Task 1: Database and Jupyter Notebook Set Up](https://courses.bootcampspot.com/courses/3337/assignments/54004?module_item_id=961459)
 
-**FILE:** part_1_mars_news.ipynb
+**FILE:** NoSQL_setup_1-2.ipynb
 
 The *Mars News* website was visited with the assistance of the [Splinter](https://splinter.readthedocs.io/en/latest/) library in Python and the site's code was examined using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) in preparation for data scaping. The purpose of the examination was to discover HTML coding elements, such as a particular tag type, or a class or id, that could be use to isolate elements of interest for data scraping. Data scraping itself commenced using the [Beautiful Soup](https://realpython.com/beautiful-soup-web-scraper-python/) library to extract the *header* and *summary* elements in the HTML markup of the site's articles using unique class values. These elements, shorn of their markup, were associated with dictionaries as the keys *title* and *preview*, respectively, and the dictionaries were appended to a list. The list was then printed out, as shown below in **Figure 1**, for easy reference of all the website's article text.
+
+![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/14531a75-7b34-423c-9f4d-dc92cee17854)
+
+**Figure 1** | *Git code pulling the database* uk_food *with the collection* establishments.json *into MongoDB, making sure any preexisting .json file with that name is deleted first*
+
 
 ![image](https://github.com/aglantzrbc/data-scraping-challenge/assets/127694342/51171e03-0b84-4e12-b117-09f776fee8f6)
 

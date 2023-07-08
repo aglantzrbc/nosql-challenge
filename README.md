@@ -24,7 +24,7 @@ In the project scenario, the editors of a fictional United Kingdom (UK) food mag
 
 **FILE:** NoSQL_setup_1-2.ipynb
 
-The author installed the necessary Python libraries (including PyMongo). A connection was established to a MongoDB server using the PyMongo library; MongoDB was allowed to run on its default port 27017. The database containing a .json collection was imported into MongoDB using this code in Git Bash when in the vicinity of the file: *mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json*. See **Figure 1** for an illustration. Proof of the success of the import of the database and its collection are shown in **Figure 2**.
+The author installed the necessary Python libraries (including PyMongo). A connection was established to a MongoDB server using the PyMongo library; MongoDB was allowed to run on its default port 27017. The database containing a .json collection was imported into MongoDB using this code in Git Bash when in the vicinity of the file: **_mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json_**. See **Figure 1** for an illustration. Proof of the success of the import of the database and its collection are shown in **Figure 2**.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/14531a75-7b34-423c-9f4d-dc92cee17854)
 

@@ -38,7 +38,7 @@ The author installed the necessary Python libraries (including PyMongo). A conne
 
 **FILE:** NoSQL_setup_1-2.ipynb
 
-Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours*, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. RatingValue and the coordinates Latitude and Longitude were coerced from strings to numbers and non-numeric RatingValue data (e.g., "Pass") were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
+Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours*, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. `RatingValue` and the coordinates `latitude` and `longitude` were coerced from strings to numbers and non-numeric RatingValue data (e.g., "Pass") were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/80570701-f4b2-4b48-a94f-65423f399484)
 
@@ -54,7 +54,7 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
    
 2. *Which establishments in London have a `RatingValue` greater than or equal to 4?* (Note - the numeric part of the RatingValue scale has a 1-5 range, with higher values better than lower values.) **Answer: 33 establishments**.
 
-3. *What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant added,* "Penang Flavours"? Nearness was defined as within 0.01 degree of latitude and longitude, approximately 1.11 km. As one ilustration, the closest establishment to *Penang Flavours* with the lowest RatingValue (i.e., 0 in this case) is a bar/pub/nightclub called *Volunteer*. See **Table 1**.
+3. *What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant added,* "Penang Flavours"? Nearness was defined as within 0.01 degree of `latitude` and `longitude`, approximately 1.11 km. As one ilustration, the closest establishment to *Penang Flavours* with the lowest RatingValue (i.e., 0 in this case) is a bar/pub/nightclub called *Volunteer*. See **Table 1**.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/83147dca-f18c-433e-b6d6-a74a450438e2)
 

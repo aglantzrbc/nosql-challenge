@@ -82,7 +82,7 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 
 ### 3. CONTRIBUTING
 
-- [Glantz, Adam](https://www.linkedin.com/in/adam-glantz/): Annapolis, Maryland, USA, June 2023, email: adamglantz@yahoo.com
+- [Glantz, Adam](https://www.linkedin.com/in/adam-glantz/): Annapolis, Maryland, USA, July 2023, email: adamglantz@yahoo.com
 
 ### 4. ACKNOWLEDGEMENTS
 

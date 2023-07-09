@@ -38,7 +38,7 @@ The author installed the necessary Python libraries (including PyMongo). A conne
 
 **FILE:** NoSQL_setup_1-2.ipynb
 
-Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours**, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. RatingValue and the coordinates Latitude and Longitude were coerced from strings to numbers and non-numeric RatingValue data (e.g., "Pass") were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
+Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours*, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. RatingValue and the coordinates Latitude and Longitude were coerced from strings to numbers and non-numeric RatingValue data (e.g., "Pass") were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/80570701-f4b2-4b48-a94f-65423f399484)
 

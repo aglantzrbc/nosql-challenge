@@ -90,6 +90,7 @@ In addition to using the resources listed above, the author acquired query respo
 
 The author also consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and recoverable through [Google](https://www.google.com/) and comparable search engines:
 
+- [Bacza, Patrick](https://www.linkedin.com/in/patrick-bacza/): Newtown, Pennsylvania, USA, March 2022. [nosql-challenge](https://github.com/Patrick-Bacza/nosql-challenge)
 - [Stegall-Rodriguez, Sarah](https://www.linkedin.com/in/sarsteg/):Brownsville, Texas, USA, June 2023. [nosql-challenge](https://github.com/sarsteg/nosql-challenge)
 - [Wang, Yeyan](https://www.linkedin.com/in/yeyan-wang/): Seattle, Washington, USA, March 2023. [nosql-challenge](https://github.com/yeyanwang/nosql-challenge)
 

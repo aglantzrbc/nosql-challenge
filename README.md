@@ -38,23 +38,17 @@ The author installed the necessary Python libraries (including PyMongo). A conne
 
 **FILE:** NoSQL_setup_1-2.ipynb
 
-Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours**, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. RatingValue and the coordinates Latitude and Longitude were coerced from strings to numbers and non-numeric RatingValue data were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
+Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours**, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. RatingValue and the coordinates Latitude and Longitude were coerced from strings to numbers and non-numeric RatingValue data (e.g., "Pass") were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/80570701-f4b2-4b48-a94f-65423f399484)
 
 **Figure 3** | *Jupyter Notebook output showing the coercion of strings into numbers for useful key values*
 
-Definitions of the column headers are in **Figure 2** and a sampling of the DataFrame is in **Table 1**.
+- [Task 3: Exploratory Analysis](https://courses.bootcampspot.com/courses/3337/assignments/54004?module_item_id=961459)
 
-![image](https://github.com/aglantzrbc/data-scraping-challenge/assets/127694342/a99a47ec-2f5a-4d12-9457-6ed836e0c049)
+**FILE:** NoSQL_analysis_3.ipynb
 
-**Figure 2** | *Definitions of the column headers in the* Mars Temperature Data *webpage*
-
-![image](https://github.com/aglantzrbc/data-scraping-challenge/assets/127694342/5048eaac-cfd1-446a-aebe-6886f6ab6bc8)
-
-**Table 1** | *Sampling of the resulting DataFrame of values for each column header*
-
-After the column data types were cast into correct categories, the following questions werre addressed:
+The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine answer specific questions from the current data, which will help them find the locations they wish to visit and avoid.
 
 1. *How many months are there on Mars?* **Answer: 12 months**. See **Figure 3**, below.
 

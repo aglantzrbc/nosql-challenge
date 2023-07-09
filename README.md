@@ -54,17 +54,17 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
    
 2. *Which establishments in London have a `RatingValue` greater than or equal to 4?* (Note - the numeric part of the RatingValue scale has a 1-5 range, with higher values better than lower values.) **Answer: 33 establishments**.
 
-3. *What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant added,* "Penang Flavours"? Nearness was defined as within 0.01 degree of latitude and longitude, approximately 1.11 km. As one ilustration, the closest establishment to *Penang Flavours* with the lowest RatingValue (i.e., 0 in this case) is a bar/pub/nightclub called *Volunteer*. See **Figure 4**.
+3. *What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant added,* "Penang Flavours"? Nearness was defined as within 0.01 degree of latitude and longitude, approximately 1.11 km. As one ilustration, the closest establishment to *Penang Flavours* with the lowest RatingValue (i.e., 0 in this case) is a bar/pub/nightclub called *Volunteer*. See **Table 1**.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/83147dca-f18c-433e-b6d6-a74a450438e2)
 
-**Figure 4** | *Jupyter Notebook output showing part of a Pandas DataFrame of the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant,* "Penang Flavours"
+**Table 1** | *Jupyter Notebook output showing part of a Pandas DataFrame of the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant,* "Penang Flavours"
 
-4. *How many establishments in each Local Authority area have a hygiene score of 0?* An aggregation pipeline was used to find the answer, with records *matched* on a hygiene score of 0, *grouped* by Local Authority, and the output "*sorted* in descending order. **Answer: 55 establishments**. The DataFrame was normalized to "flatten" nested keys before being printed. See **Table 1**.
+4. *How many establishments in each Local Authority area have a hygiene score of 0?* An aggregation pipeline was used to find the answer, with records *matched* on a hygiene score of 0, *grouped* by Local Authority, and the output "*sorted* in descending order. **Answer: 55 establishments**. The DataFrame was normalized to "flatten" nested keys before being printed. See **Table 2**.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/4b8b5fdf-2f34-4f76-989a-2df92f628071)
 
-**Table 1** | *Jupyter Notebook output showing the final DataFrame of the top 10 establishments in each Local Authority area, in descending count order, that have a hygiene score of 0, after normalization"
+**Table 2** | *Jupyter Notebook output showing the final DataFrame of the top 10 establishments in each Local Authority area, in descending count order, that have a hygiene score of 0, after normalization"
 
 ### 2. INSTALLATION
 

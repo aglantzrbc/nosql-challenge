@@ -60,7 +60,7 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 
 **Table 1** | *Jupyter Notebook output showing part of a Pandas DataFrame of the top 5 establishments with a `RatingValue` score of 5, sorted by `hygiene` score from lowest to highest, nearest to the new London restaurant,* "Penang Flavours"
 
-4. *How many establishments in each Local Authority area have a hygiene score of 0?* An aggregation pipeline was used to find the answer, with records *matched* on a hygiene score of 0, *grouped* by Local Authority, and the output "*sorted* in descending order. **Answer: 55 establishments**. The DataFrame was normalized to "flatten" or "tidy" nested keys before being printed. See **Table 2**.
+4. *How many establishments in each Local Authority area have a `hygiene` score of 0?* An aggregation pipeline was used to find the answer, with records *matched* on a `hygiene` score of 0, *grouped* by Local Authority, and the output "*sorted* in descending order. **Answer: 55 establishments**. The DataFrame was normalized to "flatten" or "tidy" nested keys before being printed. See **Table 2**.
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/4b8b5fdf-2f34-4f76-989a-2df92f628071)
 

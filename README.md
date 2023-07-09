@@ -48,7 +48,7 @@ Using the same file from Task 1, a record for a fictional new halal restaurant i
 
 **FILE:** NoSQL_analysis_3.ipynb
 
-The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine answer specific questions from the current data, which will help them find the locations they wish to visit and avoid. After making sure the new NoSQL_analysis_3.ipynb coding file has the same important features as the previous coding file (e.g., installed libraries), the following questions were posed and answered, with sample output converted to [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) DataFrames:
+The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine answer specific questions from the current data, which will putatively help them find the locations they wish to visit and avoid. After making sure the new NoSQL_analysis_3.ipynb coding file has the same important features as the previous coding file (e.g., installed libraries), the following questions were posed and answered, with sample output converted to [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) DataFrames:
 
 1. *Which establishments have a hygiene score equal to 20?* (Note - the lower the hygiene score, the better an establishment's cleanliness.) **Answer: 41 establishments**.
    
@@ -59,6 +59,12 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/83147dca-f18c-433e-b6d6-a74a450438e2)
 
 **Figure 4** | *Jupyter Notebook output showing part of a Pandas DataFrame of the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant,* "Penang Flavours"
+
+4. *How many establishments in each Local Authority area have a hygiene score of 0?* An aggregation pipeline was used to find the answer, with records *matched* on a hygiene score of 0, *grouped* by Local Authority, and the output "*sorted* in descending order. **Answer: 55 establishments**. The DataFrame was normalized to "flatten" nested keys before being printed. See **Table 1**.
+
+![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/4b8b5fdf-2f34-4f76-989a-2df92f628071)
+
+**Table 1** | *Jupyter Notebook output showing the final DataFrame of the top 10 establishments in each Local Authority area, in descending count order, that have a hygiene score of 0, after normalization"
 
 ### 2. INSTALLATION
 

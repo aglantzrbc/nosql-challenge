@@ -52,7 +52,13 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 
 1. *Which establishments have a hygiene score equal to 20?* (Note - the lower the hygiene score, the better an establishment's cleanliness.) **Answer: 41 establishments**.
    
-2. *Which establishments in London have a `RatingValue` greater than or equal to 4?* (Note - the numeric part of the RatingValue scale has a 1-5 range, with higher values better than lower values.) **Answer: 41 establishments**.
+2. *Which establishments in London have a `RatingValue` greater than or equal to 4?* (Note - the numeric part of the RatingValue scale has a 1-5 range, with higher values better than lower values.) **Answer: 33 establishments**.
+
+3. *What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by lowest hygiene score (lowest to highest), nearest to the new restaurant added,* "Penang Flavours"? Nearness was defined as within 0.01 degree of latitude and longitude, approximately 1.11 km. As one ilustration, the closest establishment to *Penang Flavours* with the lowest RatingValue (i.e., 0 in this case) is a bar/pub/nightclub called *Volunteer*. See **Figure 4**.
+
+![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/83147dca-f18c-433e-b6d6-a74a450438e2)
+
+**Figure 4** | *Jupyter Notebook output showing part of a Pandas DataFrame of the top 5 establishments with a `RatingValue` rating value of 5, sorted by hygiene score from lowest to highest, nearest to the new London restaurant,* "Penang Flavours"
 
 ![image](https://github.com/aglantzrbc/data-scraping-challenge/assets/127694342/ed7ff136-b210-4a9e-8c4e-0109a3d50f0d)
 

@@ -78,7 +78,7 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 - Since certain code blocks make changes to the collection, rerunning "before and after" scenario code may lose the dinstinction that makes these processes worthwhile as a check. **Only run the code once.**
 - The assignment details and starter code are proprietary and located on the [Rutgers University](https://www.rutgers.edu/) [(edX)](https://www.edx.org/) Bootcamp Spot [Module 12 NoSQL Challenge](https://courses.bootcampspot.com/courses/3337/assignments/54004?module_item_id=961459) webpage.
 - Both source files use Python version 3.10.9. The project was coded in [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) version 6.5.2. The *mongoimport* command was run in [Git Bash](https://git-scm.com/downloads) version 2.40.0.windows.1. The latest stable version of [Git](https://en.wikipedia.org/wiki/Git) itself is 2.41.
-- The NoSQL database used here is MongoDB 6.0. The author also used *mongoimport* from [Mongo Database Tools](https://www.mongodb.com/docs/database-tools/) for Windows x86_64-100.7.3 and the [Mongosh](https://www.mongodb.com/docs/mongodb-shell/) Shell 1.10.1-win32-x64.
+- The NoSQL database used here is MongoDB 6.0. The author also used *mongoimport* from [Mongo Database Tools](https://www.mongodb.com/docs/database-tools/) for Windows x86_64-100.7.3, the [Mongosh](https://www.mongodb.com/docs/mongodb-shell/) Shell 1.10.1-win32-x64, and the GUI app [MongoDBCompass](https://www.mongodb.com/products/compass) 1.38.2.
 
 ### 3. CONTRIBUTING
 

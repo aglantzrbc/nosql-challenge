@@ -32,7 +32,7 @@ The author installed the necessary Python libraries (including PyMongo). A conne
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/9b58541e-27bd-4cfa-b921-ef1cf8951260)
 
-**Figure 2** | *A MongoDBCompass app screen capture showing the existence of the database and its collection in MongoDB*
+**Figure 2** | *A MongoDBCompass GUI app screen capture showing the existence of the database and its collection in MongoDB*
 
 - [Task 2: Update the Database](https://courses.bootcampspot.com/courses/3337/assignments/54004?module_item_id=961459)
 

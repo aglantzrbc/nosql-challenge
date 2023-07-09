@@ -32,17 +32,17 @@ The author installed the necessary Python libraries (including PyMongo). A conne
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/9b58541e-27bd-4cfa-b921-ef1cf8951260)
 
-**Figure 1** | *A MongoDBCompass app screen capture showing the existence of the database and its collection in MongoDB*
+**Figure 2** | *A MongoDBCompass app screen capture showing the existence of the database and its collection in MongoDB*
 
-![image](https://github.com/aglantzrbc/data-scraping-challenge/assets/127694342/51171e03-0b84-4e12-b117-09f776fee8f6)
+- [Task 2: Update the Database](https://courses.bootcampspot.com/courses/3337/assignments/54004?module_item_id=961459)
 
-**Figure 1** | *Jupyter Notebook output of the articles from* Mars News *as a list of dictionaries, with the keys "title" and "preview"*
+**FILE:** NoSQL_setup_1-2.ipynb
 
-- [Task: Scrape and Analyze Mars Weather Data](https://courses.bootcampspot.com/courses/3337/assignments/54002?module_item_id=961399)
+Using the same file from Task 1, a record for a fictional new halal restaurant in Greenwich, *Penang Flavours**, was inserted into the collection and manipulated. Establishments from the Dover Local Authority were identified (994) and deleted. RatingValue and the coordinates Latitude and Longitude were coerced from strings to numbers and non-numeric RatingValue data were nullified, all in prerparation for Task 3. See **Figure 3** for the outcome of this last process.
 
-**FILE:** part_2_mars_weather.ipynb
+![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/80570701-f4b2-4b48-a94f-65423f399484)
 
-Similarly to the first task, this task started with The *Mars Temperature Data* website visited with the assistance of the Splinter library in Python and the site's code was examined using Google Chrome DevTools in preparation for data scaping. As before, the purpose of the examination was to discover HTML coding elements, such as a particular tag type, or a class or id, that could be use to isolate elements of interest for data scraping. Data scraping itself commenced using the Beautiful Soup library to extract the relevant column headers and the data associated with them by using a unique class value. These elements, shorn of their markup, were tabulated into a DataFrame.
+**Figure 3** | *Jupyter Notebook output showing the coercion of strings into numbers for useful key values*
 
 Definitions of the column headers are in **Figure 2** and a sampling of the DataFrame is in **Table 1**.
 

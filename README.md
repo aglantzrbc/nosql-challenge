@@ -77,8 +77,8 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 - It is intended for the user to run all of the *NoSQL_setup_1-2.ipynb* code and then, without a new mongoimport attempt, run the *NoSQL_analysis_3.ipynb* code, because the latter file's processes build upon accomplishments from the former. **If this sequence isn't adhered to or a new mongoimport command intervenes between running the two code files, the user may get different outputs than shown here and/or encounter errors.**
 - Since certain code blocks make changes to the collection, rerunning "before and after" scenario code may lose the dinstinction that makes these processes worthwhile as a check. **Only run the code once.**
 - The assignment details and starter code are proprietary and located on the [Rutgers University](https://www.rutgers.edu/) [(edX)](https://www.edx.org/) Bootcamp Spot [Module 12 NoSQL Challenge](https://courses.bootcampspot.com/courses/3337/assignments/54004?module_item_id=961459) webpage.
-- Both source files use Python version 3.10.9. The project was coded in [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) version 6.5.2.
-- The NoSQL database used here is MongoDB 6.0. The author also used *mongoimport* from [Mongo Database Tools](https://www.mongodb.com/docs/database-tools/) for Windows x86_64-100.7.3 and [Mongosh](https://www.mongodb.com/docs/mongodb-shell/) Shell 1.10.1-win32-x64
+- Both source files use Python version 3.10.9. The project was coded in [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) version 6.5.2. The *mongoimport* command was run in [Git Bash](https://git-scm.com/downloads) version 2.40.0.windows.1. The latest stable version of [Git](https://en.wikipedia.org/wiki/Git) itself is 2.41.
+- The NoSQL database used here is MongoDB 6.0. The author also used *mongoimport* from [Mongo Database Tools](https://www.mongodb.com/docs/database-tools/) for Windows x86_64-100.7.3 and the [Mongosh](https://www.mongodb.com/docs/mongodb-shell/) Shell 1.10.1-win32-x64.
 
 ### 3. CONTRIBUTING
 

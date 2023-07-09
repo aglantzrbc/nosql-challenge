@@ -64,12 +64,12 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 
 ![image](https://github.com/aglantzrbc/nosql-challenge/assets/127694342/4b8b5fdf-2f34-4f76-989a-2df92f628071)
 
-**Table 2** | *Jupyter Notebook output showing the final DataFrame of the top 10 establishments in each Local Authority area, in descending count order, that have a hygiene score of 0, after normalization"
+**Table 2** | *Jupyter Notebook output showing the final DataFrame of the top 10 establishments in each Local Authority area, in descending count order, that have a hygiene score of 0, after normalization*
 
 ### 2. INSTALLATION
 
-- The file for the *Scrape Titles and Preview Text from* Mars News task: **part_1_mars_news.ipynb**
-- The file for the *Scrape and Analyze Mars Weather Data* task: **part_2_mars_weather.ipynb**
+- The file for *Database and Jupyter Notebook Set Up* and *Update the Database* tasks 1 & 2: **NoSQL_setup_1-2.ipynb**
+- The file for *Exploratory Analysis* task 3: **NoSQL_analysis_3.ipynb**
 
 - The [GitHub repository](https://github.com/aglantzrbc/data-scraping-challenge) containing all project files is publicly accessible.
 - The *Resources* subdirectory contains the DataFrame *mars_weather_data_dataframe.csv* file requested by the instructions, as well as .png versions of all project plots. It is located in the same place as the code files.

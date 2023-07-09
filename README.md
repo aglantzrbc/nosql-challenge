@@ -48,9 +48,11 @@ Using the same file from Task 1, a record for a fictional new halal restaurant i
 
 **FILE:** NoSQL_analysis_3.ipynb
 
-The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine answer specific questions from the current data, which will help them find the locations they wish to visit and avoid.
+The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine answer specific questions from the current data, which will help them find the locations they wish to visit and avoid. After making sure the new NoSQL_analysis_3.ipynb coding file has the same important features as the previous coding file (e.g., installed libraries), the following questions were posed and answered, with sample output converted to [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) DataFrames:
 
-1. *How many months are there on Mars?* **Answer: 12 months**. See **Figure 3**, below.
+1. *Which establishments have a hygiene score equal to 20?* (Note - the lower the hygiene score, the better an establishment's cleanliness.) **Answer: 41 establishments**.
+   
+2. *Which establishments in London have a `RatingValue` greater than or equal to 4?* (Note - the numeric part of the RatingValue scale has a 1-5 range, with higher values better than lower values.) **Answer: 41 establishments**.
 
 ![image](https://github.com/aglantzrbc/data-scraping-challenge/assets/127694342/ed7ff136-b210-4a9e-8c4e-0109a3d50f0d)
 

@@ -71,7 +71,7 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 - The file for *Database and Jupyter Notebook Set Up* and *Update the Database* tasks 1 & 2: **NoSQL_setup_1-2.ipynb**
 - The file for *Exploratory Analysis* task 3: **NoSQL_analysis_3.ipynb**
 
-- The [GitHub repository](https://github.com/aglantzrbc/data-scraping-challenge) containing all project files is publicly accessible.
+- The [GitHub repository](https://github.com/aglantzrbc/data-scraping-challenge) (version 2.9.1) containing all project files is publicly accessible.
 - The *Resources* subdirectory contains the *establishments.json* source file requested by the instructions. It is located in the same place as the code files. **If this relative placement is altered, the code won't run**
 - As mentioned above, before starting to run the code, the user needs to install recent versions of MongoDB and Mongo Database Tools, and then run this code in a Git Bash terminal in the same subdirectory as the .json source file: *mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json*. **If this isn't done, the code won't run**
 - It is intended for the user to run all of the *NoSQL_setup_1-2.ipynb* code and then, without a new mongoimport attempt, run the *NoSQL_analysis_3.ipynb* code, because the latter file's processes build upon accomplishments from the former. **If this sequence isn't adhered to or a new mongoimport command intervenes between running the two code files, the user may get different outputs than shown here and/or encounter errors.**
@@ -86,12 +86,13 @@ The scenario for Task 3 is to help the editors of the *Eat Safe, Love* magazine 
 
 ### 4. ACKNOWLEDGEMENTS
 
-In addition to using the GitHub, Rutgers University (edX), and Jupyter Notebook resources listed above, the author acquired query responses in OpenAI's [ChatGPT](https://chat.openai.com/) 3.5 platform and the [VSCode GitHub Copilot](https://github.com/features/copilot) app.
+In addition to using the resources listed above, the author acquired query responses in OpenAI's [ChatGPT](https://chat.openai.com/) 3.5 platform and the [VSCode GitHub Copilot](https://github.com/features/copilot) app.
 
 The author also consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and recoverable through [Google](https://www.google.com/) and comparable search engines:
 
-- [Abdelrahman, Ahmed](https://www.linkedin.com/in/ahmadhha/): Mississauga, Ontario, Canada, January 2023. [scraping_and_analysis-challenge](https://github.com/Ahmadhha/scraping_and_analysis-challenge)
-- [Guturi, Bharat](https://www.linkedin.com/in/bharat-guturi/): Perth, Western Australia, Australia, February 2023. [Mars-weather-data-scraping-and-analysis](https://github.com/BharatGuturi/Mars-weather-data-scraping-and-analysis)
+- [Stegall-Rodriguez, Sarah](https://www.linkedin.com/in/sarsteg/):Brownsville, Texas, USA, June 2023. [nosql-challenge](https://github.com/sarsteg/nosql-challenge)
+- [Wang, Yeyan](https://www.linkedin.com/in/yeyan-wang/): Seattle, Washington, USA, March 2023. [nosql-challenge](https://github.com/yeyanwang/nosql-challenge)
+
 
 ### 5. LICENSES
 
